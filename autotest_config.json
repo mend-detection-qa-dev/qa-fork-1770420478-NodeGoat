@@ -2015,7 +2015,8 @@
       ]},
             "_comment_vulnerabilities_names_list": "Optional. Check specific libs names (minimist-0.0.8.tgz). Operators: eq (==), contains (all items from expected list in actual), in(all items from actual list in expected), nin(actual list does not contain provided libs). If not provided, this check will not be performed."
         },
-      "reachability": {
+      "validate_reachability": true,
+        "reachability": {
       "check_reachability_status": true,
       "_comment_check_reachability_status": "Verify that reachability analysis was performed",
 
